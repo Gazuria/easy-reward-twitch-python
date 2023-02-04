@@ -8,11 +8,21 @@
   <li>requests (puedes instalarlo con <code>pip install requests</code>)</li>
 </ul>
 
-<h2>Uso</h2>
+<h2>Configuración</h2>
 <ol>
   <li>Obtén un <code>access_token</code> y un <code>client_id</code> de Twitch API en <a href="https://twitchtokengenerator.com/">Twitch Token Generator</a> generando el token con el permiso "channel:manage:redemptions".</li>
-  <li>Ejecuta el script con el comando <code>python script.py</code> en la terminal.</li>
-  <li>Sigue las instrucciones en la consola para crear, modificar o borrar recompensas personalizadas.</li>
+  <p>Una vez que tengas el <code>access_token</code>, <code>client_id</code> ponerlos en el config.py
+  <p>Despues correr "pyhton broadcast.py" y poner el username para que se termine de configurar la app   
+</ol>
+
+<h2>Administrar Rewards</h2>
+<ol>
+  <li>Ejecutar <code>python manage.py</code> para crear, modificar rewards y borrar </li>
+</ol>
+
+<h2>Administrar Redeemptions</h2>
+<ol>
+  <li>Ejecutar <code>python canje.py</code> para ver los redeemtions 1 por 1 de cada reward</li>
 </ol>
 
 <h2>Notas</h2>
