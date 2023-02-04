@@ -10,7 +10,7 @@
 
 <h2>Uso</h2>
 <ol>
-  <li>Obtén un <code>access_token</code> y un <code>client_id</code> de Twitch API.</li>
+  <li>Obtén un <code>access_token</code> y un <code>client_id</code> de Twitch API en <a href="https://twitchtokengenerator.com/">Twitch Token Generator</a> generando el token con el permiso "channel:manage:redemptions".</li>
   <li>Ejecuta el script con el comando <code>python script.py</code> en la terminal.</li>
   <li>Sigue las instrucciones en la consola para crear, modificar o borrar recompensas personalizadas.</li>
 </ol>
